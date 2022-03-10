@@ -4,6 +4,16 @@ function updateAllDates() {
 
   const date = new Date();
 
+  const days = [
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday',
+    'Sunday',
+  ];
+
   const day = date.getDate();
   const month = date.getMonth() + 1;
   const year = date.getFullYear();
